@@ -18,6 +18,31 @@ FONT SIZE SYSTEM (px)
   box-sizing: border-box;
 }
 
+/* Navigation bar styles */
+nav {
+  display: flex;
+  align-items: center;
+  margin-bottom: auto;
+  padding: 20px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+li {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #343a40;
+  font-weight: 600;
+}
+
+/* Adjust header styles */
 
 /* ------------------------ */
 /* GENERAL STYLES */
